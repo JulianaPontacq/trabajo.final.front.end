@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#presentacion">Inicio</a></li>
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de presentación -->
+    <header id="presentacion">
+        <h1>Clinica Veterinaria Mis Amigos Peludos</h1>
+        <p>Ofrecemos los mejores productos y servicios para un excelente cuidado de tus mascotas.</p>
+        <div class="gallery">
+            <img src="images/clinica veterinaria 1.jpg" alt="Clinica 1">
+            <img src="images/clinica veterinaria 2.jpg" alt="Clinica 2">
+            <img src="images/clinica veterinaria 3.jpg" alt="Clinica 3">
+        </div>
+    </header>
+
+    <!-- Sección "Quiénes Somos" -->
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>Somos la Clínica Veterinaria Mis Amigos Peludos, inaugurada el 6 de Febrero 2011. Brindamos servicios de atención médica y cuidados especializados para tus mascotas.</p>
+        <p>Ofrecemos servicios de ecografía, tomografía, fisioterapia y mucho más.</p>
+        <p>Porque nuestros amigos peludos son lo primero.</p>
+    </section>
+
+    <!-- Sección de productos -->
+    <main id="productos">
+        <h2>Productos</h2>
+        <div class="product-list" id="product-list">
+            <!-- Los productos se cargan aquí dinámicamente -->
+        </div>
+    </main>
+
+    <!-- Sección de servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <img src="images/ecografia de perros.jpg" alt="Ecografía">
+                <p>Ecografía</p>
+            </div>
+            <div class="service-item">
+                <img src="images/radigrafia de perros.jpg" alt="Radiografía">
+                <p>Radiografía</p>
+            </div>
+            <div class="service-item">
+                <img src="images/fisioterapia para perros.jpg" alt="Fisioterapia">
+                <p>Fisioterapia</p>
+            </div>
+            <!-- Imágenes según sea necesario -->
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos a través de los siguientes medios:</p>
+        
+            <li>Teléfono: (2983) 123456</li>
+            <li>Email: misamigospeludos@gmail.com</li>
+            <li>Dirección: Av. del Trabajador y Castelli, Tres Arroyos, Argentina</li>
+        
+    </section>
+
+    <!-- Sección de total de la compra -->
+    <footer>
+        <div class="checkout">
+            <p>Total de la compra: $<span id="total">0.00</span></p>
+            <button id="finalizar-compra">FINALIZAR COMPRA</button>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

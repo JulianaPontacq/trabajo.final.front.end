@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: blue;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: cornflowerblue;
+}
+
+header .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+header .gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+section#quienes-somos,
+section#servicios {
+    padding: 20px 5%;
+    background-color: #e9ecef;
+    margin: 20px 0;
+}
+section#quienes-somos p{
+    text-align: center;
+    color: crimson;
+}
+
+section#quienes-somos h2,
+section#servicios h2 {
+    text-align: center;
+}
+section#quienes-somos h2{
+    color: crimson;
+}
+
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    color:blue;
+}
+
+.service-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main {
+    padding: 20px;
+}
+#productos h2{
+    text-align: center;
+    color: purple;
+}
+
+.product-list {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    padding: 10px;
+}
+
+
+.product-card {
+    width: 200px; /* Ancho fijo */
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    color: purple;
+}
+
+.product-card button,
+.product-card input.cantidad-producto {
+    display: block; 
+    width: 100%; 
+    padding: 10px 15px; 
+    box-sizing: border-box; 
+    border-radius: 5px; 
+}
+
+.product-card button{
+    background-color: #288ea7;
+}
+
+.product-card input.cantidad-producto {
+    border: 1px solid #5c6ee9; 
+    background-color: #ddd;
+}
+
+.product-card img {
+    width: 100%; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+.checkout {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+#contacto {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    margin: 20px;
+    color: black;
+    list-style: none;
+}
+
+#finalizar-compra {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#finalizar-compra:hover {
+    background-color: #218838;
+}
